@@ -3,20 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
-            background-repeat: no-repeat;
+            background-repeat: repeat-y;
+            background-size: cover;
+            background-attachment: fixed;*/
+
+            /* Shothand - background
+            color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
             background-size: cover;
         }
 
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 2px solid darkblue;
@@ -27,6 +35,9 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae tempore consequuntur aliquid itaque architecto assumenda delectus quia ut iusto labore, veritatis molestiae et ratione saepe explicabo corporis voluptate mollitia laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laboriosam illum ipsum neque alias cum quasi animi ullam quaerat sequi dolores accusantium quos aspernatur, sed aliquid officiis! A, blanditiis dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos commodi sunt accusamus? Vero quibusdam, velit fugiat in aliquid porro nulla excepturi? Illo eligendi, dicta maiores aspernatur accusamus atque tempora.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae tempore consequuntur aliquid itaque architecto assumenda delectus quia ut iusto labore, veritatis molestiae et ratione saepe explicabo corporis voluptate mollitia laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laboriosam illum ipsum neque alias cum quasi animi ullam quaerat sequi dolores accusantium quos aspernatur, sed aliquid officiis! A, blanditiis dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos commodi sunt accusamus? Vero quibusdam, velit fugiat in aliquid porro nulla excepturi? Illo eligendi, dicta maiores aspernatur accusamus atque tempora.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae tempore consequuntur aliquid itaque architecto assumenda delectus quia ut iusto labore, veritatis molestiae et ratione saepe explicabo corporis voluptate mollitia laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laboriosam illum ipsum neque alias cum quasi animi ullam quaerat sequi dolores accusantium quos aspernatur, sed aliquid officiis! A, blanditiis dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos commodi sunt accusamus? Vero quibusdam, velit fugiat in aliquid porro nulla excepturi? Illo eligendi, dicta maiores aspernatur accusamus atque tempora.</p>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae tempore consequuntur aliquid itaque architecto assumenda delectus quia ut iusto labore, veritatis molestiae et ratione saepe explicabo corporis voluptate mollitia laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laboriosam illum ipsum neque alias cum quasi animi ullam quaerat sequi dolores accusantium quos aspernatur, sed aliquid officiis! A, blanditiis dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos commodi sunt accusamus? Vero quibusdam, velit fugiat in aliquid porro nulla excepturi? Illo eligendi, dicta maiores aspernatur accusamus atque tempora.</p>
     </main>
 </body>
