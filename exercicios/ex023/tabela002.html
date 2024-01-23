@@ -13,13 +13,15 @@
             width: 500px;
             border-collapse: collapse;
             margin-left: 30px;
+            position: relative;
         }
 
         caption{
             font-size: 1.5em;
-            background-color: rgb(26, 29, 29);
-            color: white;
+            background-color: lightgray;
             padding: 10px;
+            color: black;
+            font-weight: bold;
         }
 
         td , th{
@@ -31,12 +33,23 @@
             text-align: right;
         }
 
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(26, 29, 29);
+        }
+
         thead, tfoot{
-            background-color: lightgray;
+            background-color: rgb(26, 29, 29);
+            color: white;
         }
         
         th.total{
             border-right: none;
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
         }
     </style>
 </head>
@@ -206,5 +219,9 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur error blanditiis dignissimos dolorum, debitis quidem rerum cum odio nihil, distinctio labore exercitationem? Odio nulla quas consectetur alias ducimus cumque laudantium. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt ut excepturi enim dolores incidunt accusantium temporibus dicta alias, eveniet ducimus doloremque vero, earum iure numquam dolorum quis, harum fuga nam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius vero debitis earum, nostrum illum voluptatibus! Neque velit nihil perspiciatis delectus. Dolor, fugit. Tenetur facilis maxime praesentium pariatur, est perspiciatis maiores? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum est tempore ex quam repellat neque velit veniam in animi exercitationem, ut at temporibus odio pariatur odit impedit quo vero possimus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur error blanditiis dignissimos dolorum, debitis quidem rerum cum odio nihil, distinctio labore exercitationem? Odio nulla quas consectetur alias ducimus cumque laudantium. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt ut excepturi enim dolores incidunt accusantium temporibus dicta alias, eveniet ducimus doloremque vero, earum iure numquam dolorum quis, harum fuga nam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius vero debitis earum, nostrum illum voluptatibus! Neque velit nihil perspiciatis delectus. Dolor, fugit. Tenetur facilis maxime praesentium pariatur, est perspiciatis maiores? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum est tempore ex quam repellat neque velit veniam in animi exercitationem, ut at temporibus odio pariatur odit impedit quo vero possimus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur error blanditiis dignissimos dolorum, debitis quidem rerum cum odio nihil, distinctio labore exercitationem? Odio nulla quas consectetur alias ducimus cumque laudantium. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt ut excepturi enim dolores incidunt accusantium temporibus dicta alias, eveniet ducimus doloremque vero, earum iure numquam dolorum quis, harum fuga nam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius vero debitis earum, nostrum illum voluptatibus! Neque velit nihil perspiciatis delectus. Dolor, fugit. Tenetur facilis maxime praesentium pariatur, est perspiciatis maiores? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum est tempore ex quam repellat neque velit veniam in animi exercitationem, ut at temporibus odio pariatur odit impedit quo vero possimus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur error blanditiis dignissimos dolorum, debitis quidem rerum cum odio nihil, distinctio labore exercitationem? Odio nulla quas consectetur alias ducimus cumque laudantium. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt ut excepturi enim dolores incidunt accusantium temporibus dicta alias, eveniet ducimus doloremque vero, earum iure numquam dolorum quis, harum fuga nam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius vero debitis earum, nostrum illum voluptatibus! Neque velit nihil perspiciatis delectus. Dolor, fugit. Tenetur facilis maxime praesentium pariatur, est perspiciatis maiores? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum est tempore ex quam repellat neque velit veniam in animi exercitationem, ut at temporibus odio pariatur odit impedit quo vero possimus.</p>
 </body>
 </html>
